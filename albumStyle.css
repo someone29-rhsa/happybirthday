@@ -1,0 +1,44 @@
+body{
+    background-image: url(pot.jpg);
+    margin: 0 auto;
+}
+
+h3{
+    color: white; /* warna isi teks */
+  -webkit-text-stroke: 1px hotpink;
+    text-align: center;
+    
+}
+
+button{
+    color: rgb(158, 25, 16);
+    background-color: white;
+    display: block;
+    margin: 20px auto;
+    border: 0px;
+}
+
+.photos{
+    display: flex;
+    flex-flow: wrap;
+    width: 1000 px;
+    margin-bottom: 15px;
+    justify-content: center;
+} 
+
+figure{
+    width: 200px;
+    border: 5px solid white;
+    background-color: white;
+    border-bottom: 15px solid white;
+}
+
+figure img{
+    width: 100%
+}
+
+figure figcaption{
+   text-align: center;   
+   color: rgb(126, 130, 127);
+   margin-top: 4px;
+}

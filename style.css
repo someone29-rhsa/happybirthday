@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(245, 159, 238);
+    margin: 300px auto;
+  
+}
+
+h1, h4{
+    color: white;
+    text-align: center;
+}
+
+button{
+    background-color: white;
+    border-color: white;
+    color: rgb(163, 130, 161);
+    margin: 0 auto;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.playlist{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
